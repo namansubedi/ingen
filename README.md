@@ -1,13 +1,10 @@
-[![Discord](https://img.shields.io/badge/Discord-%40Invoify-000000?style=flat&logo=Discord&logoColor=#5865F2)](https://discord.gg/BzT6g4Wj)
-# Invoify
+InGen
 
-Invoify is a web-based invoice generator application built with Next.js 13, TypeScript, React, and the Shadcn UI library. It provides an easy way to create and manage professional invoices.
-
-![Invoify Website image](/public/assets/img/invoify-web-app.png)
+InGen is a web-based invoice generator application built with Next.js 13, TypeScript, React, and the Shadcn UI library. It provides an easy way to create and manage professional invoices.
 
 ## Table of Contents
 
-- [Invoify](#invoify)
+- [InGen](#invoify)
   - [Table of Contents](#table-of-contents)
   - [Technologies](#technologies)
     - [Core Technologies](#core-technologies)
@@ -18,7 +15,6 @@ Invoify is a web-based invoice generator application built with Next.js 13, Type
     - [Prerequisites](#prerequisites)
     - [Installation](#installation)
   - [License](#license)
-
 
 ## Technologies
 
@@ -39,24 +35,17 @@ Invoify is a web-based invoice generator application built with Next.js 13, Type
 
 ## Roadmap
 
-- [x] **Easily Create Invoices:** Utilize a simple form to quickly generate invoices.
-- [x] **Save for Future Access:** Store your invoices directly in your browser for easy retrieval.
-- [x] **Retrieve Invoices Effortlessly:** Load and access invoices seamlessly from your saved list.
-- [x] **Flexible Download Options:** Download invoices directly or send them via email in PDF format.
-- [x] **Template Variety:** Choose from multiple (currently 2) invoice templates.
-- [x] **Live Preview:** Edit the form and see changes in real-time with the live preview feature.
-- [x] **Export in Various Formats:** Export invoices in different formats, including JSON, XLSX, CSV, and XML.
+- [X] **Easily Create Invoices:** Utilize a simple form to quickly generate invoices.
+- [X] **Save for Future Access:** Store your invoices directly in your browser for easy retrieval.
+- [X] **Retrieve Invoices Effortlessly:** Load and access invoices seamlessly from your saved list.
+- [X] **Flexible Download Options:** Download invoices directly or send them via email in PDF format.
+- [X] **Template Variety:** Choose from multiple (currently 2) invoice templates.
+- [X] **Live Preview:** Edit the form and see changes in real-time with the live preview feature.
+- [X] **Export in Various Formats:** Export invoices in different formats, including JSON, XLSX, CSV, and XML.
 - [ ] **I18N Support:** i18n support with multiple languages for UI and templates.
 - [ ] **Themeable Templates:** Select a theme color for the invoice
 - [ ] **Custom Inputs:** Define your own inputs that are missing from the default invoice builder. (Ex: VAT number)
 - [ ] **Individual Tax for Line Items:** Add tax details for a specific line item other than the general tax
-
-## Demo
-
-> [!NOTE]
-> Please be advised that there are currently issues when using this application in the Mozilla Firefox browser. For more information, refer to [Issue #11](https://github.com/aliabb01/invoify/issues/11).
-
-Visit the [live demo](https://invoify.vercel.app) to see Invoify in action.
 
 ## Getting Started
 
@@ -71,29 +60,33 @@ Follow these instructions to get Invoify up and running on your local machine.
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/al1abb/invoify.git
-   cd invoify
+   git clone https://github.com/namansubedi/ingen.git
+   cd ingen
    ```
 2. Install dependencies
-   
+
    ```bash
    npm install
    ```
 3. Create an .env.local file with this content (This step is for sending pdf to email feature):
+
    ```env
    NODEMAILER_EMAIL=your_email@example.com
    NODEMAILER_PW=your_email_password
    ```
 4. Start development server
 
-    ```bash
-    npm run dev
-    ```
+   ```bash
+   npm run dev
+   ```
 5. Open your web browser and access the application at [http://localhost:3000](http://localhost:3000)
+
 <!-- LICENSE -->
+
 ## License
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 ## Discord
+
 Join the Discord server [here](https://discord.gg/BzT6g4Wj)

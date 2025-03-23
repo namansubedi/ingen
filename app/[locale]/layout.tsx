@@ -7,7 +7,6 @@ import {
   dancingScript,
   GeistSans,
   greatVibes,
-  outfit,
   parisienne,
 } from "@/lib/fonts";
 
@@ -86,7 +85,7 @@ export default async function LocaleLayout({
         />
       </head>
       <body
-        className={`${GeistSans.className} ${outfit.className} ${dancingScript.variable} ${parisienne.variable} ${greatVibes.variable} ${alexBrush.variable} antialiased bg-slate-100`}
+        className={`${GeistSans.className} ${dancingScript.variable} ${parisienne.variable} ${greatVibes.variable} ${alexBrush.variable} antialiased bg-slate-100`}
       >
         <NextIntlClientProvider locale={locale} messages={messages}>
           <Providers>
