@@ -1,4 +1,6 @@
-InGen
+![image](https://raw.githubusercontent.com/namansubedi/ingen/refs/heads/main/public/assets/img/invoify-web-app.png)
+
+# InGen
 
 InGen is a web-based invoice generator application built with Next.js 13, TypeScript, React, and the Shadcn UI library. It provides an easy way to create and manage professional invoices.
 
@@ -49,7 +51,7 @@ InGen is a web-based invoice generator application built with Next.js 13, TypeSc
 
 ## Getting Started
 
-Follow these instructions to get Invoify up and running on your local machine.
+Follow these instructions to get InGen up and running on your local machine.
 
 ### Prerequisites
 
@@ -86,7 +88,3 @@ Follow these instructions to get Invoify up and running on your local machine.
 ## License
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
-
-## Discord
-
-Join the Discord server [here](https://discord.gg/BzT6g4Wj)
